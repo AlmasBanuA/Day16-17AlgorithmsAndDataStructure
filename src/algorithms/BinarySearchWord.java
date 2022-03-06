@@ -45,7 +45,8 @@ public class BinarySearchWord {
 			/**
 			 * this formula is taking for mid point in the array represents 'm'
 			 */
-			int m = l + (r - l) / 2;
+			
+			int m = (l + r)/2;
 			int res = srch.compareTo(arr[m]);
 
 			/*
@@ -79,7 +80,7 @@ public class BinarySearchWord {
 	 */
 	public static void main(String[] args) {
 		String[] arr = { "Delhi", "Karnataka", "Kerala", "Noida" };
-		String srch = "Noida";
+		String srch = "ab";
 
 		int result = binarySearch(arr, srch);
 
