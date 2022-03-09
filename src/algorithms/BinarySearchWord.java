@@ -76,7 +76,7 @@ public class BinarySearchWord {
 	/**
 	 * Main method for manipulation linkedList
 	 * 
-	 * @param args - Default Java param (Not used)
+	 * @param args  - Default Java param (Not used)
 	 */
 	public static void main(String[] args) {
 		String[] arr = { "Delhi", "Karnataka", "Kerala", "Noida" };
